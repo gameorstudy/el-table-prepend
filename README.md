@@ -7,6 +7,22 @@ npm install el-table-prepend
 ```
 
 ##### Usage
-```js
+```vue
+<template>
+  <el-table-prepend>
+    <template #prepend>
+      <!-- Add contents here -->
+    </template>
+  </el-table-prepend>
+</template>
+
+<script>
 import ElTablePrepend from 'el-table-prepend'
+
+export default {
+  components: {
+    ElTablePrepend
+  }
+}
+</script>
 ```
