@@ -1,13 +1,25 @@
 #### el-table-prepend
-el-table header appends a slot to add button for editable table.
 
-##### Setup
+为 el-table 添加一个前置插槽（prepend slot），方便在表头下方添加按钮等。
+
+##### 依赖要求
+
+在使用 el-table-prepend 之前，请确保您的项目已安装以下依赖：
+
+```json
+{
+  "element-ui": "^2.15.14",
+  "vue": "^2.6.10"
+}
 ```
+
+##### 安装
+```bash
 npm install el-table-prepend
 ```
 
 ##### Usage
-```vue
+```html
 <template>
   <el-table-prepend>
     <template #prepend>

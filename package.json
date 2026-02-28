@@ -3,12 +3,10 @@
     "name": "rasmasxiong"
   },
   "name": "el-table-prepend",
-  "description": "Element ui el-table adds header slot",
-  "main": "dist/el-table-prepend.common.js",
+  "description": "Element ui el-table component append slot to table head",
+  "main": "lib/el-table-prepend.common.js",
   "files": [
-    "lib",
-    "src",
-    "packages"
+    "lib/**/*.js"
   ],
   "repository": {
     "type": "git",
@@ -17,17 +15,16 @@
   "bugs": {
     "url": "https://github.com/gameorstudy/el-table-prepend/issues"
   },
-  "version": "1.0.1",
+  "version": "1.0.5",
   "keywords": [
     "element-ui",
     "el-table",
-    "vue",
-    "components"
+    "vue2"
   ],
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "lib": "vue-cli-service build --target lib --name el-table-prepend ./packages/el-table-prepend/index.js"
+    "lib": "vue-cli-service build --target lib --name el-table-prepend ./packages/el-table-prepend/index.js --dest lib"
   },
   "peerDependencies": {
     "element-ui": "^2.15.14",
